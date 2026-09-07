@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina Studio | Photopedia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="miniproject.css">
+  <script src="miniproject.js" defer></script>
+</head>
+
+<body>
+  <main class="main_box" id="home">
+    <input type="checkbox" id="check" aria-label="Toggle navigation menu">
+    <header class="topbar"><a class="brand" href="#home"><span>LU</span>MINA</a>
+      <div class="topbar_actions"><button class="cart_button" aria-label="Open cart"><i
+            class="fa-solid fa-bag-shopping"></i><b class="cart_count">0</b></button><label class="btn_one"
+          for="check"><i class="fa-solid fa-bars"></i><span>Menu</span></label></div>
+    </header>
+    <aside class="sidebar_menu" aria-label="Site navigation">
+      <div class="sidebar_top"><a class="brand" href="#home"><span>LU</span>MINA</a><label class="btn_two" for="check"
+          aria-label="Close navigation"><i class="fa-solid fa-xmark"></i></label></div>
+      <p class="menu_label">Explore My Photopedia</p>
+      <nav class="menu">
+        <ul>
+          <li><a href="#gallery"><i class="fa-solid fa-image"></i>Gallery</a></li>
+          <li><a href="#shortcuts"><i class="fa-solid fa-arrow-up-right-from-square"></i>Shortcuts</a></li>
+          <li><a href="#exhibits"><i class="fa-solid fa-photo-film"></i>Exhibits</a></li>
+          <li><a href="#events"><i class="fa-solid fa-calendar-days"></i>Events</a></li>
+          <li><a href="#store"><i class="fa-solid fa-store"></i>Store</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar_footer">
+        <p>Follow the light</p>
+        <div class="social_media"><a href="#contact" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a
+            href="#contact" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a><a href="#contact"
+            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#contact" aria-label="YouTube"><i
+              class="fa-brands fa-youtube"></i></a></div>
+      </div>
+    </aside>
+    <section class="hero">
+      <p class="eyebrow"><span></span> Visual stories, beautifully told</p>
+      <h1>Find wonder in<br><em>every frame.</em></h1>
+      <p class="hero_copy">A carefully curated space for photography, culture, and the moments that stay with us long
+        after they pass.</p>
+      <div class="hero_actions"><a class="primary_button" href="#gallery">Explore gallery <i
+            class="fa-solid fa-arrow-right"></i></a><a class="text_button" href="#exhibits">View exhibits</a></div>
+    </section>
+    <div class="hero_meta"><span>01 / 04</span>
+      <div class="progress"><i></i></div><span>Scroll to discover</span>
+    </div>
+    <p class="location"><i class="fa-solid fa-location-arrow"></i> New Delhi, India</p>
+  </main>
+  <section class="content_section gallery_section" id="gallery">
+    <div class="section_heading">
+      <p class="eyebrow dark"><span></span> Curated work</p>
+      <h2>Moments worth <em>keeping.</em></h2>
+      <p>Browse a selection of stills from our current collection.</p>
+    </div>
+    <div class="filters"><button class="active" data-filter="all">All work</button><button
+        data-filter="portrait">Portraits</button><button data-filter="animal">Animals</button></div>
+    <div class="gallery_grid"><button class="gallery_item tall" data-category="portrait" data-image="photo.jpg"
+        data-title="Quiet confidence"><img src="photo.jpg" alt="Portrait in natural light"><span>Portraits <i
+            class="fa-solid fa-arrow-up-right-from-square"></i></span></button><button class="gallery_item"
+        data-category="portrait" data-image="woman.jpg" data-title="Soft light"><img src="woman.jpg"
+          alt="Woman portrait"><span>Portraits <i
+            class="fa-solid fa-arrow-up-right-from-square"></i></span></button><button class="gallery_item"
+        data-category="portrait" data-image="man.webp" data-title="A pause in time"><img src="man.webp"
+          alt="Man portrait"><span>Portraits <i
+            class="fa-solid fa-arrow-up-right-from-square"></i></span></button><button class="gallery_item wide"
+        data-category="animal" data-image="dog.jpg" data-title="Unscripted joy"><img src="dog.jpg"
+          alt="Dog outdoors"><span>Animals <i class="fa-solid fa-arrow-up-right-from-square"></i></span></button><button
+        class="gallery_item" data-category="animal" data-image="cat.jpg" data-title="The watchful one"><img
+          src="cat.jpg" alt="Cat portrait"><span>Animals <i
+            class="fa-solid fa-arrow-up-right-from-square"></i></span></button></div>
+  </section>
+  <section class="shortcuts" id="shortcuts"><a href="#gallery"><i class="fa-regular fa-images"></i><span>New
+        arrivals</span><b>Explore</b></a><a href="#events"><i class="fa-regular fa-calendar"></i><span>Book a
+        visit</span><b>Reserve</b></a><a href="#contact"><i class="fa-regular fa-envelope"></i><span>Work with
+        us</span><b>Connect</b></a></section>
+  <section class="content_section exhibit_section" id="exhibits">
+    <div class="section_heading light">
+      <p class="eyebrow"><span></span> Now showing</p>
+      <h2>Stories in <em>focus.</em></h2>
+    </div>
+    <div class="exhibit_slider"><button class="slide_arrow previous" aria-label="Previous exhibit"><i
+          class="fa-solid fa-arrow-left"></i></button>
+      <article class="exhibit_card">
+        <p class="exhibit_number">01 / 03</p>
+        <h3 class="exhibit_title">The Human<br>Element</h3>
+        <p class="exhibit_text">A meditation on the quiet expressions that tell the loudest stories.</p><a
+          href="#contact" class="text_button">Plan your visit</a>
+      </article><button class="slide_arrow next" aria-label="Next exhibit"><i
+          class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </section>
+  <section class="content_section events_section" id="events">
+    <div class="section_heading">
+      <p class="eyebrow dark"><span></span> Gather with us</p>
+      <h2>Upcoming <em>events.</em></h2>
+    </div>
+    <div class="event_list">
+      <article><time datetime="2026-09-12"><b>12</b><span>SEP<br>2026</span></time>
+        <div>
+          <h3>Artist conversation: Light &amp; memory</h3>
+          <p>6:30 PM · Lumina Studio, New Delhi</p>
+        </div><button class="rsvp_button" data-event="Artist conversation: Light &amp; memory">RSVP <i
+            class="fa-solid fa-arrow-right"></i></button>
+      </article>
+      <article><time datetime="2026-09-28"><b>28</b><span>SEP<br>2026</span></time>
+        <div>
+          <h3>Street photography walk</h3>
+          <p>8:00 AM · Lodhi Art District, New Delhi</p>
+        </div><button class="rsvp_button" data-event="Street photography walk">RSVP <i
+            class="fa-solid fa-arrow-right"></i></button>
+      </article>
+    </div>
+  </section>
+  <section class="store_section" id="store">
+    <div>
+      <p class="eyebrow"><span></span> Take it home</p>
+      <h2>Prints for your <em>walls.</em></h2>
+      <p>Limited-edition archival prints, carefully made to last.</p>
+    </div>
+    <div class="product"><img src="woman.jpg" alt="Soft Light limited edition print">
+      <div>
+        <h3>Soft Light</h3>
+        <p>Limited edition · A4 archival print</p><strong>₹1,800</strong><button class="add_cart"
+          data-product="Soft Light print" data-price="1800">Add to bag <i class="fa-solid fa-plus"></i></button>
+      </div>
+    </div>
+  </section>
+  <section class="contact_section" id="contact">
+    <div>
+      <p class="eyebrow"><span></span> Say hello</p>
+      <h2>Let's make something <em>meaningful.</em></h2>
+      <p>For commissions, collaborations, or a simple question, write to us.</p>
+    </div>
+    <form class="contact_form"><label>Name<input name="name" required placeholder="Your name"></label><label>Email<input
+          type="email" name="email" required placeholder="you@example.com"></label><label>Message<textarea
+          name="message" required placeholder="Tell us a little about your idea"></textarea></label><button
+        class="primary_button" type="submit">Send message <i class="fa-solid fa-arrow-right"></i></button>
+      <p class="form_message" role="status"></p>
+    </form>
+  </section>
+  <footer>© 2026 Lumina Studio <span>Made for people who notice.</span></footer>
+  <dialog class="lightbox"><button class="close_modal" aria-label="Close image">×</button><img src="" alt="">
+    <p></p>
+  </dialog>
+  <dialog class="cart_modal"><button class="close_cart" aria-label="Close cart">×</button>
+    <h2>Your bag</h2>
+    <div class="cart_items">
+      <p class="empty_cart">Your bag is waiting for a print.</p>
+    </div>
+    <div class="cart_total">Total <strong>₹0</strong></div><button class="primary_button checkout">Checkout</button>
+  </dialog>
+  <dialog class="rsvp_modal"><button class="close_rsvp" aria-label="Close RSVP form">×</button>
+    <h2>Reserve your spot</h2>
+    <p class="event_name"></p>
+    <form class="rsvp_form"><input required name="guest" placeholder="Your name"><input required type="email"
+        name="email" placeholder="Email address"><button class="primary_button">Confirm RSVP</button></form>
+  </dialog>
+</body>
+
+</html>
